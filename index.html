@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Seção do Header -->
+    <header class="header__website" id="main">
+        <nav class="nav__header">
+            <a href="#top">Sobre</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <!-- Seção da esquerda -->
+    <section class="main__section">
+        <div class="main__section__left">
+        <h1>Olá! Me chamo</h1>
+        <span id="section__name"><a>Luan Victor</a></span>
+        <h2>(web & software developer)</h2>
+        <p>Moro em <a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Jos%C3%A9_do_Egito" target="_blank rel="noopener noreferrer"><span class="name__cidade"><i class="fas fa-map-marker-alt"></i>São José do Egito - PE</span></a>, tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas (ADS) pela <a href="https://www.uninter.com/" target="_blank rel="noopener noreferrer"><span class="name__uninter">UNINTER</span></a>. Sou apaixonado por tecnologia e desenvolvimento de sistemas desde que usei um computador pela primeira vez, em 2007. No meu tempo livre, gosto de jogar <a href="https://diablo4.blizzard.com/pt-br/" target="_blank" rel="noopener noreferrer"><span class="name__diablo">Diablo 4</span></a> e recriar sites famosos para aprender e aprimorar minhas habilidades em desenvolvimento web. </p>
+        <div class="buttons__nav">
+            <a href="https://github.com/Luanvictordev" target="_blank rel="noopener noreferrer><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/luanvictor.lo/" target="_blank rel="noopener noreferrer><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@youway2022" target="_blank rel="noopener noreferrer><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/luan-victor-44705a220/" target="_blank rel="noopener noreferrer><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        </div>
+    <!-- Seção da Direita (imagem) -->
+    <div class="main__section__right">
+        <img src="src/mecp.jpg" alt="author__photo">
+    </section>
+    <div id="adversity__img"><img decoding="async" src="https://framerusercontent.com/images/i6E8adEnoyBvNvPK6deSFANf2U.svg"></div>
+    <div id="adversity__img2"><img decoding="async" src="https://framerusercontent.com/images/3waxHuywsZWcUmX1iSI27FIs.svg"></div>
+    <!-- Seção de Portfólio -->
+    <section id="portfolio" class="portfolio__section">
+        <div class="portfolio-content">
+            <span>Em Breve</h2>
+            <p>Estou trabalhando em novos projetos e logo você verá meu portfólio completo. Fique atento para atualizações!</p>
+            <p>Enquanto isso, sinta-se à vontade para explorar outras seções do meu site ou entrar em contato para saber mais.</p>
+        </div>
+    </section>
+    <section class="contact__section" id="contact">
+        <!-- Informações à esquerda -->
+        <div class="side__left__informations">
+            <span class="contact__ring">Toque o sino!</span>
+            <span class="contact__description">Vamos criar algo incrível juntos! Entre em contato e compartilhe suas ideias.</span>
+            <span class="contact__form__call">Preencha o formulário</span>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+    </section>
+</body>
+</html>

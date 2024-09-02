@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+a {
+    color: #e6e6e6; /* Cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:visited {
+    color: #e6e6e6; /* Mantém a mesma cor após o link ser visitado */
+}
+
+.header__website {
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.nav__header {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho esteja acima do conteúdo */
+}
+
+.nav__header > a {
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.nav__header > a:hover {
+    color: #4292cd;
+    transform: scale(1.1);
+    letter-spacing: 5px;
+}
